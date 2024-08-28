@@ -1,0 +1,14 @@
+Mobile Dev Questions
+
+Q1) Write Kotlin program to display factorial of a number input the number from the user.
+
+Q2) Display fibonacci series of the number
+
+Q3) Input a range from the user (1 to 500) check weather a number is perfect number or not.
+Perfect: Sum of the factors of number should be equal to the number itself.
+
+Q4) Display armstrong numbers. 
+
+Q5) Prime numbers
+
+Q6) Input numbers from user and find HCF and LCM of the numbers
