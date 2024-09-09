@@ -1,11 +1,11 @@
 Functions in Kotlin
 
-wkp using user-defined fun to display sum of n numbers
+- Write Kotlin programme using user-defined fun to display sum of n numbers
 
-display reverse a number
+- display reverse a number
 
-display armstrong number from the user defined range
+- display armstrong number from the user defined range
 
-to display prime numbers from the user defined range
+- to display prime numbers from the user defined range
 
-display fibonacci series from the user defined range of numbers.
+- display fibonacci series from the user defined range of numbers.
