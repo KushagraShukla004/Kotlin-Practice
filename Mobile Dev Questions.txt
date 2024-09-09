@@ -12,3 +12,5 @@ Q4) Display armstrong numbers.
 Q5) Prime numbers
 
 Q6) Input numbers from user and find HCF and LCM of the numbers
+
+
