@@ -1,3 +1,15 @@
 Classes in Kotlin
+examples in Student.kt
 
-Create a student class to display whether a student has passed or failed
+example program: Create a student class to display whether a student has passed or failed
+
+
+Kotlin constructors:  It is a special member function that is called when an object is created in Kotlin there are two constructors
+
+1) Primary Constructor 2) Secondary Constructor
+
+Primary Constructor:
+    The primary constructor is a part of the class header.
+    The block of code enclosed within the parenthesis is the primary constructor.
+
+for example:
