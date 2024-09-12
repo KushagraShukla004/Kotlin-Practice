@@ -30,11 +30,31 @@
 //----------------------------------------------------------------------
 //Example for Primary Constructor
 //----------------------------------------------------------------------
+
+//fun main(args: Array<String>){
+//    val stud1= Student("David",500)
+//    println("First Name: ${stud1.firstName}")
+//    println("Marks: ${stud1.marks}")
+//}
+//// we are using this class to call our (parameterized) "Student" constructor.
+//class Student(val firstName:String, val marks:Number){
+//}
+//----------------------------------------------------------------------
+//Example for Primary Constructor with "init" block
+//----------------------------------------------------------------------
 fun main(args: Array<String>){
     val stud1= Student("David",500)
-    println("First Name: ${stud1.firstName}")
-    println("Marks: ${stud1.marks}")
 }
 // we are using this class to call our (parameterized) "Student" constructor.
-class Student(val firstName:String, val marks:Number){
+class Student(val firstName:String?, val marks:Int){
+    var firstName1 : String?=null
+    var marks1: Int=0
+
+    init {
+        firstName1=firstName
+        marks1=marks
+        println("First Name: $firstName1")
+        println("Marks: $marks1")
+    }
 }
+
