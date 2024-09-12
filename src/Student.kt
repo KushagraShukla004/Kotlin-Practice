@@ -50,7 +50,7 @@ class Student(val firstName:String?, val marks:Int){
     var firstName1 : String?=null
     var marks1: Int=0
 
-    //initializer bloc
+    //initializer block
     init {
         firstName1=firstName
         marks1=marks
