@@ -12,4 +12,4 @@ Primary Constructor:
     The primary constructor is a part of the class header.
     The block of code enclosed within the parenthesis is the primary constructor.
 
-for example:
+Note: Primary Constructor has a restricted syntax and cannot contain any code. To include the initialization code we need initializer block
