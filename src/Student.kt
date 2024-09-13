@@ -42,20 +42,61 @@
 //----------------------------------------------------------------------
 //Example for Primary Constructor with "init" block
 //----------------------------------------------------------------------
-fun main(args: Array<String>){
-    val stud1= Student("David",500)
+//fun main(args: Array<String>){
+//    val stud1= Student("David",500)
+//}
+//// we are using this class to call our (parameterized) "Student" constructor.
+//class Student(val firstName:String?, val marks:Int){
+//    var firstName1 : String?=null
+//    var marks1: Int=0
+//
+//    //initializer block
+//    init {
+//        firstName1=firstName
+//        marks1=marks
+//        println("First Name: $firstName1")
+//        println("Marks: $marks1")
+//    }
+//}
+//----------------------------------------------------------------------------
+//Example of Secondary Constructor (with one constructor)
+//----------------------------------------------------------------------------
+//fun main(args: Array<String>)
+//{
+//    Add(5, 6)
+//}
+//
+//// class with one secondary constructor
+//class Add
+//{
+//    constructor(a: Int, b:Int)
+//    {
+//        val c = a + b
+//        println("The sum of numbers 5 and 6 is: $c")
+//    }
+//}
+//----------------------------------------------------------------------------
+//Example of Secondary Constructor (with 2 or more constructors)
+//----------------------------------------------------------------------------
+fun main(args: Array<String>) {
+    employee(18018, "Sagnik")
+    employee(11011,"Praveen",600000.5)
 }
-// we are using this class to call our (parameterized) "Student" constructor.
-class Student(val firstName:String?, val marks:Int){
-    var firstName1 : String?=null
-    var marks1: Int=0
+class employee {
+    constructor (emp_id : Int, emp_name: String ) {
+        val id: Int = emp_id
+        val name: String = emp_name
+        print("Employee id is: $id, ")
+        println("Employee name: $name")
+        println()
+    }
 
-    //initializer block
-    init {
-        firstName1=firstName
-        marks1=marks
-        println("First Name: $firstName1")
-        println("Marks: $marks1")
+    constructor (emp_id : Int, emp_name: String ,emp_salary : Double) {
+        val id: Int = emp_id
+        val name: String = emp_name
+        val salary : Double = emp_salary
+        print("Employee id is: $id, ")
+        print("Employee name: $name, ")
+        println("Employee name: $salary")
     }
 }
-
