@@ -1,4 +1,5 @@
-fun reverse(num:Int){
+//Write kotlin program using user-defined function to display reverse of a number
+fun reverse(num:Int):Int {
     var temp = num
     var rev=0
     while (temp>0){
@@ -6,11 +7,11 @@ fun reverse(num:Int){
         rev= (rev*10) + digit
         temp = temp / 10
     }
-    println("Reverse of $num is = $rev")
+    return rev
 }
 
 fun main(){
     print("Enter the number: ")
     val num1= readln().toInt()
-    reverse(num1)
+    println("Reverse of $num1 is = ${reverse(num1)}")
 }

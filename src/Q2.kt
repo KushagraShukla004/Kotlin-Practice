@@ -1,3 +1,4 @@
+//Write kotlin program using user-defined function to display Fibonacci Series from user-defined range
 fun printFib(number: Int){
     var n1=0
     var n2=1
@@ -11,7 +12,7 @@ fun printFib(number: Int){
 }
 
 fun main(){
-    print("Enter the number: ")
-    val number = readln().toInt()
-    printFib(number)
+    print("Enter the range: ")
+    val range = readln().toInt()
+    printFib(range)
 }

@@ -1,3 +1,4 @@
+//Write kotlin program using user-defined function to display Prime number from user-defined range
 fun isPrime(number: Int): Boolean {
     var count = 0
     for (i in 1 until number) {
