@@ -13,10 +13,10 @@ fun main() {
     print("Enter the range: ")
     val range = readln().toInt()
 
-    println("Prime numbers from 1 to $range are:")
+    print("Prime numbers from 1 to $range are:")
     for (i in 1 until range) {
         if (isPrime(i)) {
-            println(i)
+            print(" $i,")
         }
     }
 }
