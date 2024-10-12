@@ -1,23 +1,21 @@
 fun isPrime(number: Int): Boolean {
-    if (number <= 1){
-        return false
-    }
-
-    for (i in 2..< number) {
+    var count = 0
+    for (i in 1 until number) {
         if (number % i == 0) {
-            return false
+            count++
         }
     }
-    return true
+    return count == 2
 }
 
 fun main() {
-    print("Enter a number: ")
-    val number = readln().toInt()
+    print("Enter the range: ")
+    val range = readln().toInt()
 
-    if (isPrime(number)) {
-        println("$number is a Prime Number.")
-    } else {
-        println("$number is not a Prime Number.")
+    println("Prime numbers from 1 to $range are:")
+    for (i in 1 until range) {
+        if (isPrime(i)) {
+            println(i)
+        }
     }
 }

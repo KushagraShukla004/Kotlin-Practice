@@ -1,10 +1,9 @@
+fun add(num:Int):Int{
+    return if(num==0) 0; else num+add(num-1)
+}
+
 fun main() {
     print("Enter the number: ")
-    val number= readln().toInt()
-    //used LongInt (L) for storing value uptil 20 factorials
-    var factorial=1L
-    for (i in 1..number){
-        factorial*=i
-    }
-    println("Factorial of $number is : $factorial")
+    val range= readln().toInt()
+    println("Sum of 1- $range is : ${add(range)}")
 }
