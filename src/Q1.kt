@@ -5,5 +5,5 @@ fun add(num:Int):Int{
 fun main() {
     print("Enter the number: ")
     val range= readln().toInt()
-    println("Sum of 1- $range is : ${add(range)}")
+    println("Sum of 1-$range is : ${add(range)}")
 }
